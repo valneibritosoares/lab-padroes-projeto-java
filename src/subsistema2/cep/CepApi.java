@@ -19,4 +19,8 @@ public class CepApi {
 	public String recuperarEstado(String cep) {
 		return "SP";
 	}
+
+	public String recuperarPais(String cep) {
+		return "Brasil";
+	}
 }
